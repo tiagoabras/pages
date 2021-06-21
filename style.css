@@ -1,0 +1,94 @@
+body{
+	text-align: center;
+	font-family: Nunito Sans;
+	background-image: url(imagens/Fundo.jpg);
+	background-size: cover;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: 2px;
+/*	padding: 90px 0 0 0; */
+	padding-top: 0px;
+/*	color: white; */
+	color: rgb(8, 69, 105);
+	text-shadow: 2px 2px 2px gray;
+/*	text-shadow: 2px 2px 2px rgb(19, 3, 43); */
+	margin-bottom: 0px;
+}
+
+p{
+	font-size: 14px;
+	opacity: 0.8;
+	color: rgb(8, 69, 105);	
+}
+
+.funcao {
+	font-weight: bolder;
+	color: rgb(186, 130, 41);	
+}
+
+.projeto {
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px gray;
+}
+
+.fadein {
+	opacity:0.6;
+	transition: 1s ease;
+}
+
+.fadein:hover {
+	opacity:1;
+	transition: 1s ease;
+}
+
+.lista {
+	list-style: none;
+	margin-top: 2px;
+}
+
+.lista li{
+	display: inline;
+}
+
+.lista a{
+	padding: 25px;
+	font-size: 40px;
+	background: -webkit-linear-gradient(#0845A4, #130324);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.list a{
+	padding: 15px;
+}
+
+.list a:hover {
+	opacity: 0.6;
+}
+
+.tag {
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+/*	.botao {
+	color: white;
+	text-decoration: none;
+	background-color: rgb(8, 69, 105);
+	padding: 15px 15px;
+	border-radius: 6px;
+}
+
+.botao:hover {
+	background-color: rgb(19, 3, 77);
+}*/
+
+.redes {
+	padding-top: 40px;
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 40px;
+}
